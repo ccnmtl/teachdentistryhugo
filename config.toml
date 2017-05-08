@@ -1,0 +1,10 @@
+baseURL = "https://pass.ctl.columbia.edu/"
+metaDataFormat = "yaml"
+languageCode = "en-us"
+theme = "ctl-book"
+title = "Teach Dentistry"
+
+[params]
+    customCSS = "main.css"
+    description = "Teach Dentistry is a learning module that lets you explore the foundations of entering dental academics while charting your own path."
+    keywords = "dental education, teach dentistry, medicine, dentistry"
