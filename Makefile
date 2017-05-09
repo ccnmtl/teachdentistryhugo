@@ -7,7 +7,7 @@ INTERMEDIATE_STEPS ?= echo nothing
 JS_FILES=themes/ctl-book/static/js/
 
 
-all: webpack jshint jscs
+all: jshint jscs
 
 include *.mk
 
