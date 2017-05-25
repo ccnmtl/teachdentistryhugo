@@ -1,0 +1,31 @@
+
+<div class="video-display clearfix">
+<div class="video-player hidden-print">
+	<iframe src='https://www.youtube.com/embed/{{ .Get "id" }}' 
+		allowfullscreen
+		frameborder="0"
+		width="560"
+		height="315"
+	></iframe>
+</div>
+
+<div class="video-info">
+<h4>“{{ .Get "vtitle" }}”</h4>
+
+<p><em>
+{{ .Get "vperson" }}
+{{ if (.Get "vdetail1") }}<br />{{ .Get "vdetail1" }}{{ end }}
+{{ if (.Get "vdetail2") }}<br />{{ .Get "vdetail2" }}{{ end }}
+{{ if (.Get "vdetail3") }}<br />{{ .Get "vdetail3" }}{{ end }}
+</em></p>
+
+<p><a href="/pdf/{{ .Get "vtranscript" }}" target="_blank" class="btn btn-default download-transcript"><span class="glyphicon glyphicon-download-alt"></span> Video transcript (pdf)</a></p>
+
+</div>
+
+
+</div>
+
+<div class="well visible-print-block print-alert">
+<p>This segment of the page contains a video. The link to this video  is https://www.youtube.com/embed/{{ .Get "id" }}</p>
+</div>

@@ -1,0 +1,60 @@
+{{ if .IsHome }}
+    <div class="clearfix"></div>
+    <nav class="hidden-print">
+      <ul class="pager pager-nav">
+        <li class="next"><a href="page/introduction/">Let’s get started! <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
+    </nav>
+{{ end }}    
+    </div>
+
+</div>
+
+
+<footer role="contentinfo">
+    <div class="container">
+        <ul class="footer-moreinfo hidden-print" role="presentation">
+            <li><a href="/info/about/"><span class="sr-only">Learn more </span>About<span class="sr-only"> {{ .Site.Title }}</span></a></li>
+            <li><a href="/info/help/">Help<span class="sr-only"> on using this website</span></a></li>
+            <li><a href="/info/help/#contact">Contact<span class="sr-only"> us</span></a></li>
+            <li>Code licensed <a itemprop="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPLv3</a>, content <a itemprop="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></li>
+        </ul>
+        <h1 class="sr-only" role="presentation">{{ .Site.Title }} is produced by:</h1>
+        <ul class="footer-logos" role="presentation">
+            <li itemscope itemtype="http://schema.org/EducationalOrganization"><a href="http://dental.columbia.edu" target="_blank" itemprop="url"><img src="{{ .Site.BaseURL }}img/logo-cdm.png" alt="" itemprop="logo" /><span class="sr-only" itemprop="name">Columbia University College of Dental Medicine</span></a></li>
+            <li itemscope itemtype="http://schema.org/EducationalOrganization"><a href="http://ctl.columbia.edu" target="_blank" itemprop="url"><img src="{{ .Site.BaseURL }}img/logo-ctl.png" alt="" itemprop="logo" /><span class="sr-only" itemprop="name">Center for Teaching and Learning at Columbia University</span></a></li>
+        </ul>
+    </div>
+    <div class="visible-print-block">
+    <p role="presentation">Printed from: {{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}</p>
+    </div>
+</footer>
+
+</body>
+
+<!-- Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="{{ .Site.BaseURL }}js/src/main.js" type="text/javascript" language="javascript"></script>
+{{ if .IsHome }}
+<!--<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery('#TDCarousel').carousel({
+        interval: 6000
+    })
+});
+</script>-->
+{{ end }}
+{{ if .IsPage }}
+{{ if eq .Type "module-page" }}
+<script src="{{ .Site.BaseURL }}js/src/sidemenu.js" type="text/javascript" language="javascript"></script>
+<script src="{{ .Site.BaseURL }}js/src/quiz.js" type="text/javascript" language="javascript"></script>
+{{ partial "js.html" . }}
+{{ else }}
+{{ end }}
+{{ end }}
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
+</html>
