@@ -30,7 +30,6 @@ h2 {
     margin: 0;
     font-size: 24px;
     font-weight: normal;
-    text-transform: capitalize;
 }
 
 .homepage .pagetitle {
@@ -651,8 +650,8 @@ header.container {
 .thumbnail-impact {background: url('/img/section_thumbnail.png') -168px 0px no-repeat;}
 .thumbnail-concerns {background: url('/img/section_thumbnail.png') -210px 0px no-repeat;}
 .thumbnail-settings {background: url('/img/section_thumbnail.png') -252px 0px no-repeat;}
-.thumbnail-map {background: url('/img/section_thumbnail.png') -294px 0px no-repeat;}
-.thumbnail-ce {background: url('/img/section_thumbnail.png') -336px 0px no-repeat;}
+.thumbnail-exemplars {background: url('/img/section_thumbnail.png') -294px 0px no-repeat;}
+.thumbnail-resources {background: url('/img/section_thumbnail.png') -336px 0px no-repeat;}
 
 /* Accordion -------------------------------------------------------------- */
 

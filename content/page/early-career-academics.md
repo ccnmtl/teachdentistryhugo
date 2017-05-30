@@ -5,7 +5,7 @@ module: "tracks"
 next: "areas of focus"
 next_module: "focus"
 previous: "academic tracks"
-title: "early career academics"
+title: "Early Career Academics"
 type: "module-page"
 ---
 
