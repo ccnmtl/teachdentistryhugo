@@ -5,7 +5,7 @@ islast: yes
 next_module: "tracks"
 next: "academic tracks"
 previous: ""
-title: "introduction"
+title: "Introduction"
 type: "module-page"
 ---
 
