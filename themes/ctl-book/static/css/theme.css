@@ -679,6 +679,159 @@ header.container {
 	text-transform: uppercase;
 }
 
+/*--------------------------------------------------
+    Section Navigation (Default)
+  --------------------------------------------------*/
+
+#primarynav {
+    width: 918px;
+    margin: -7px auto 0 auto;
+    padding: 6px 0 0 0;
+    border: 0;
+    z-index: 100;
+    /* background: url('../img/bg_section_nav_top_tl.png') 0px 0px no-repeat;*/
+}
+
+#primarynav-inner {
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: #bed4e9;
+    box-shadow: 1px 1px 3px #999;
+    -webkit-border-bottom-right-radius: 6px;
+       -moz-border-bottom-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+    /* background: #e1e9f1 url('../img/bg_section_nav_tl.png') 0px 0px repeat-y; */
+}
+
+.section-nav-tab {
+    width: 140px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-bottom-right-radius: 6px;
+       -moz-border-bottom-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+       -moz-border-bottom-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+    background-color: #6699cc;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, left top, right top, from(#99ccff), to(#6699cc));
+    
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(left, #6699cc, #99ccff);
+    
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left, #6699cc, #99ccff);
+    
+    /* IE 10 */
+    background: -ms-linear-gradient(left, #6699cc, #99ccff);
+    
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left, #6699cc, #99ccff);
+    /* display: none; temporary */
+}
+
+.section-nav-tab-inner {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    border: 0;
+    background: url('/img/white-arrow.png') no-repeat 80px -45px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-nav-tab .active {
+    background-position: 80px 15px;
+}
+
+#section-items {
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    border: 0;
+    list-style: none;
+}
+
+.section-item {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 94px;
+    margin: 0 15px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.section-item .section-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    background-color: #000;
+}
+
+.section-item .section-icon:hover {
+    box-shadow: 0px 0px 6px #000;
+}
+
+.section-item .section-title {
+    display: block;
+    margin: 2px 0 0 0;
+    padding: 0;
+    width: 72px;
+    font-size: 11px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#section-items .active .section-icon {
+    box-shadow: 0px 0px 10px #f00;
+    border: 1px solid #ff9933;
+}
+
+#section-items .active .section-title {
+    color: #cc3333;
+    font-weight: bold;
+}
+
+.section-item .section-icon, .section-icon-home  .section-icon {
+    border-color: #6699cc;
+}
+
+.section-thumbnail {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.section-thumbnail .section-slug {
+    margin: 0 10px 0 0;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.section-thumbnail h3 {
+    font-weight: normal;
+    font-size: 20px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.section-icon-home {
+    margin-left: 23px;   
+}
+
 .thumbnail-intro {background: url('/img/section_thumbnail.png') -42px 0px no-repeat;}
 .thumbnail-tracks {background: url('/img/section_thumbnail.png') -84px 0px no-repeat;}
 .thumbnail-focus {background: url('/img/section_thumbnail.png') -126px 0px no-repeat;}
@@ -687,6 +840,17 @@ header.container {
 .thumbnail-settings {background: url('/img/section_thumbnail.png') -252px 0px no-repeat;}
 .thumbnail-exemplars {background: url('/img/section_thumbnail.png') -294px 0px no-repeat;}
 .thumbnail-resources {background: url('/img/section_thumbnail.png') -336px 0px no-repeat;}
+
+.section-icon-home .section-icon { background: url('/img/section_icon_home.png') -115px -15px no-repeat; }
+.section-icon-intro .section-icon { background: url('/img/section_icon_intro.png') -115px -15px no-repeat; }
+.section-icon-tracks .section-icon { background: url('/img/section_icon_tracks.png') -115px -15px no-repeat; }
+.section-icon-focus .section-icon { background: url('/img/section_icon_focus.png') -115px -15px no-repeat; }
+.section-icon-impact .section-icon { background: url('/img/section_icon_impact.png') -115px -15px no-repeat; }
+.section-icon-concerns .section-icon { background: url('/img/section_icon_concerns.png') -115px -15px no-repeat; }
+.section-icon-settings .section-icon { background: url('/img/section_icon_settings.png') -115px -15px no-repeat; }
+.section-icon-exemplars .section-icon { background: url('/img/section_icon_exemplars.png') -115px -15px no-repeat; }
+.section-icon-resources .section-icon { background: url('/img/section_icon_resources.png') -115px -15px no-repeat; }
+
 
 /* Accordion -------------------------------------------------------------- */
 
@@ -896,6 +1060,53 @@ content: "\e080\00a0";
     #primary-logo {
         height: 100px;
     }    
+    #primarynav {
+        width: 1143px;
+        /* background: url('../img/bg_section_nav_top_d.png') 0px 0px no-repeat; */
+    }
+    #primarynav-inner {
+        height: 130px;
+        /* background: #cfddeb url('../img/bg_section_nav_d.png') 0px 0px repeat-y; */
+    }
+    .section-nav-tab {
+        width: 170px;
+    }
+    .section-nav-tab-inner {
+        padding: 0 0 0 8px;
+        background-position: 80px -45px;
+    }
+    .section-nav-tab .active {
+        background-position: 80px 15px;
+    }
+    .section-item {
+        width: 90px;
+        height: 114px;
+        margin: 0 17px;
+    }
+    .section-item .section-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .section-item .section-title {
+        width: 92px;
+    }
+    .section-thumbnail .section-icon {
+        width: 160px;
+        height: 160px;
+        background-position: 5px 5px;
+    }
+    .section-icon-home .section-icon { background-position: -5px -5px; }
+    .section-icon-intro .section-icon { background-position: -5px -5px; }
+    .section-icon-tracks .section-icon { background-position: -5px -5px; }
+    .section-icon-focus .section-icon { background-position: -5px -5px; }
+    .section-icon-impact .section-icon { background-position: -5px -5px; }
+    .section-icon-concerns .section-icon { background-position: -5px -5px; }
+    .section-icon-settings .section-icon { background-position: -5px -5px; }
+    .section-icon-exemplars .section-icon { background-position: -5px -5px; }
+    .section-icon-resources .section-icon { background-position: -5px -5px; }
+    .ui-tabs-vertical .ui-tabs-panel {
+        width: 760px;
+    }
     .video-player iframe {
         max-width: 560px !important;
         max-height: 315px !important;
