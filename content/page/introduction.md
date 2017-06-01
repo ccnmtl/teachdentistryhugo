@@ -9,7 +9,7 @@ title: "Introduction"
 type: "module-page"
 ---
 
-{{< youtube id="pumkDIigEM4" vtitle="Put a small fingerprint on the next generation of dentists" vperson="Joseph McManus, DMD, MS, MHA, MBA, MS" vdetail1="Executive Director of Community DentCare &  Associate Professor of Dental Medicine" vdetail2="Columbia University College of Dental Medicine" vtranscript="transcript_mcmanus.pdf" >}}
+{{< youtube id="R5EBuLxJz7Y" vtitle="Put a small fingerprint on the next generation of dentists" vperson="Joseph McManus, DMD, MS, MHA, MBA, MS" vdetail1="Executive Director of Community DentCare &  Associate Professor of Dental Medicine" vdetail2="Columbia University College of Dental Medicine" vtranscript="transcript_mcmanus_intro.pdf" >}}
 
 &nbsp;
 
