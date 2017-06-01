@@ -511,6 +511,41 @@ header.container {
     font: normal 12px/130% Courier, Serif !important;
 }
 
+.grid-item {
+  float: left;
+  width: 250px;
+  height: 520px;
+  border: 1px solid #ccc;
+}
+
+.grid-item--exemplar {
+    padding: 10px;
+    margin: 10px 20px 10px 0;
+}
+
+.grid-item--exemplar img {
+    display: block;
+    width: 100%;
+}
+
+.e_name {
+    font-weight: bold;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+.e_institution {
+    padding: 5px 0 0 0;
+    margin: 0;
+    font-style: italic;
+    line-height: 130%;
+}
+
+.e_reason {
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
 /*Previous-Next page navigation ------------------------------------------- */
 
 .pager-nav {
