@@ -37,6 +37,12 @@
 <br class="visible-print-block" />
 
 <div class="container well outer-container">
+{{ if .IsPage }}
+{{ if eq .Type "module-page" }}
+{{ partial "primarynav.html" . }}
+{{ end }}
+{{ end }}
+
 {{ if .IsHome }}
     <div id="invitation">
         <div id="TDCarousel" class="carousel slide">
