@@ -6,7 +6,6 @@ previous: "introduction"
 title: "Academic Tracks"
 type: "module-page"
 ---
-{{< figure src="/img/assets/photo_track.jpg" title="Dr. Courtney Chinn volunteers at Miles for Smiles" alt="Dr. Courtney Chinn volunteers at Miles for Smiles" class="img-polaroid right" >}}
 
 A number of academic tracks have been developed recently. Each one recognizes different sets of contributions made by faculty to the various missions of an academic institution. These tracks may vary based on the institutional structure, but most follow the tenets of an educational focus, a clinical focus, or a research focus.
 
