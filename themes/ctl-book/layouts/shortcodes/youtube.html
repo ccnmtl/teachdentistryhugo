@@ -1,5 +1,5 @@
 
-<div class="video-display clearfix">
+<div class="video-display clearfix hidden-print">
 <div class="video-player hidden-print">
 	<iframe src='https://www.youtube.com/embed/{{ .Get "id" }}' 
 		allowfullscreen
@@ -28,4 +28,5 @@
 
 <div class="well visible-print-block print-alert">
 <p>This segment of the page contains a video. The link to this video  is https://www.youtube.com/embed/{{ .Get "id" }}</p>
+<p>The transcript of this video is available at https://teachdentistry.org/pdf/{{ .Get "vtranscript" }}</p>
 </div>

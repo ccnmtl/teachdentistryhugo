@@ -1333,25 +1333,33 @@ content: "\e080\00a0";
 }
 
 @media print {
+    body {
+        background-image: none;
+        background-color: transparent;
+    }
     .print-alert {
         font-weight: bold;
         color: #999 !important;
     }
     #primary-logo
     {
-        padding: 0 0 15px 0;
+        margin: 0 !important;
+        padding: 0 0 15px 0 !important;
         height: 60px !important;
     }    
-    #secondary-logo
-    {
-        padding: 0 0 15px 0;
-        height: 60px !important;
-    }    
-    .module-name h1 {
-        padding-top: 40px !important;
-        padding-left: 15px !important;
-        height: auto;
-        background-color: transparent;
+    #primary-logo img {
+        height: 100%;
+    }
+    .outer-container {
+        box-shadow: none !important;
+        border: 0 !important;
+    }
+    #primarynav {
+        display: none;
+    }
+    .panel-collapse {
+        display: block !important;
+        height: auto !important;
     }
     footer {
         border-top: 1px solid #ccc;
@@ -1362,4 +1370,5 @@ content: "\e080\00a0";
     #headcontainer a[href]:after {
         content: none !important;
     }
+
 }

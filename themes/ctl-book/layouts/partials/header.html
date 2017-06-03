@@ -34,7 +34,6 @@
     <meta itemprop="url" content="{{ .Permalink }}" />
     <meta itemprop="name" content="{{ .Title }}" />
 </header>
-<br class="visible-print-block" />
 
 <div class="container well outer-container">
 {{ if .IsPage }}
@@ -66,7 +65,7 @@
         
         {{ if .IsPage }}
         {{ if eq .Type "module-page" }}
-        <div class="section-thumbnail"><div class="section-slug thumbnail-{{ .Params.module }}"></div><h3>SECTION: {{ .Params.module }}</h3></div>
+        <div class="section-thumbnail"><div class="section-slug thumbnail-{{ .Params.module }} hidden-print"></div><h3>SECTION: {{ .Params.module }}</h3></div>
         {{ end }}
         {{ end }}
 
