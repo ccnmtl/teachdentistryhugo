@@ -31,7 +31,6 @@ There is a need for dentists to teach throughout the career stages from predocto
 <li>High level of energy and persistence</li>
 <li>High IQ and motivation</li>
 </ul>
-<p>Find out why Adriana Segura teaches dentistry. Later in the module, you will be able to find other dentists who teach predoctoral students.</p>
         </div>
       </div>
     </div>

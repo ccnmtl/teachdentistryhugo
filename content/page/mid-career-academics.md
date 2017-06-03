@@ -9,6 +9,8 @@ title: "Mid Career Academics"
 type: module-page
 ---
 
+{{< figure src="/img/assets/photo_focus.jpg" title="Dr. Thomas Boyle helps a student in the clinic" alt="Dr. Thomas Boyle helps a student in the clinic" class="img-polaroid right" >}}
+
 ## Enjoy teaching tomorrow’s faculty today to share your clinical acumen as a dentist.
 
 When the daily routine becomes just routine, the opportunity to be with colleagues discussing the latest technology and patient care is a refreshing change. Additionally, the affordability may be more reasonable at this stage than earlier in your career, and the respect of the community at large is magnified considerably.

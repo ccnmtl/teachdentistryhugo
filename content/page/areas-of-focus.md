@@ -7,8 +7,6 @@ title: "Areas of Focus"
 type: module-page
 ---
 
-{{< figure src="/img/assets/photo_focus.jpg" title="Dr. Thomas Boyle helps a student in the clinic" alt="Dr. Thomas Boyle helps a student in the clinic" class="img-polaroid right" >}}
-
 Working in an academic setting provides a wide array of opportunities to guide trainees. Many dentists promote the variety of responsibilities that come with working in education as one of its major benefits.
 
 <div class="clearfix"></div>

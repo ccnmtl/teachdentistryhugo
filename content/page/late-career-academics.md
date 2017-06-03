@@ -9,6 +9,8 @@ title: "Late Career Academics"
 type: "module-page"
 ---
 
+{{< figure src="/img/assets/photo_concerns.jpg" title="Dr. Joseph McManus works with students in the clinic lab." alt="Dr. Joseph McManus works with students in the clinic lab." class="img-polaroid right" >}}
+
 ## Enjoy teaching tomorrow’s dentists today to ensure a fulfilling legacy to your dental career.
 
 For the individual later in his or her career, the vast sum of knowledge that one may bring to education cannot be overstated. Financially, the burden is clearly less, but more importantly the opportunity to pass on the accumulated experience of many years of practice is beyond measure. To help a student in the clinical setting or when he/she is contemplating the future is a rare and unique opportunity and a very fulfilling experience. Passing on ethical standards by manifesting them as a role model can come only from many years of unique personal experiences.
@@ -17,6 +19,6 @@ Perhaps most importantly, the development of clinical judgment, when to jump in 
 
 ## Joseph McManus, DMD, MS, MHA, MBA, MS
 
-Dr. Joseph McManus is currently the Executive Director of Community DentCare. He practiced pediatric dentistry for over 25 years and has served on the faculty of Columbia University College of Dental Medicine where he held positions of Associate Professor, Associate Dean and the Executive Director of the Faculty Practices. He now serves as an Associate Clinical Professor of Dental Medicine at Columbia University and as a consultant for Henry Schein Professional Practice Transitions Division.
+Dr. Joseph McManus practiced pediatric dentistry for over 25 years and has served on the faculty of Columbia University College of Dental Medicine where he held positions of Associate Professor, Associate Dean and the Executive Director of the Faculty Practices. He now serves as an Associate Professor of Dental Medicine and the Executive Director of Community DentCare at Columbia University and as a consultant for Henry Schein Professional Practice Transitions Division.
 
-Watch this video to learn more about Dr. McManus’ career in teaching dentistry. {{< youtube id="qHBNyYWo0mo" vtitle="As a dental academic, you can make changes" vperson="Courtney Chinn, DDS, MPH" vdetail1="Director, Advanced Education Program in Pediatric Dentistry" vdetail2="NYU College of Dentistry" vtranscript="transcript_mcmanus_concerns.pdf" >}}
+Watch this video to learn more about Dr. McManus’ career in teaching dentistry. {{< youtube id="qHBNyYWo0mo" vtitle="The experiences I have had in dental academics are unparalleled." vperson="Joseph McManus, DMD, MS, MHA, MBA, MS" vdetail1="Executive Director of Community DentCare &  Associate Professor of Dental Medicine" vdetail2="Columbia University College of Dental Medicine" vtranscript="transcript_mcmanus_concerns.pdf" >}}
