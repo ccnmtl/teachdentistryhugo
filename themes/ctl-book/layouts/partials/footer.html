@@ -73,7 +73,7 @@ jQuery(document).ready(function(){
 <script src="{{ .Site.BaseURL }}js/src/masonry.pkgd.min.js" type="text/javascript" language="javascript"></script>
 <script type="text/javascript" language="javascript">
 jQuery(document).on("click", ".launch-player", function () {
-     var exemplarvideoID = "https://www.youtube.com/embed/"+jQuery(this).data('id');
+     var exemplarvideoID = "https://www.youtube.com/embed/"+jQuery(this).data('id') + "?showinfo=0";
      var exemplarName = jQuery(this).data('vperson');
      jQuery(".modal-body .exemplars-video").attr("src", exemplarvideoID );
      jQuery("#exemplarVideo").text(exemplarName);
