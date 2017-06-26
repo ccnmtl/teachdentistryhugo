@@ -43,8 +43,8 @@
 {{ end }}
 
 {{ if .IsHome }}
-    <div id="invitation">
-        <div id="TDCarousel" class="carousel slide">
+    <div id="invitation" role="presentation" aria-hidden="true">
+        <div id="TDCarousel" class="carousel slide" role="presentation" aria-hidden="true">
             <!-- Carousel items -->
             <div class="carousel-inner">
                 <div class="active item"><img src="{{ .Site.BaseURL }}img/slideshow_01.jpg" /></div>
@@ -53,11 +53,11 @@
                 <div class="item"><img src="{{ .Site.BaseURL }}img/slideshow_04.jpg" /></div>
             </div>
         </div>
-        <div class="text-content" id="phrase2">
+        <div class="text-content" id="phrase2" role="presentation" aria-hidden="true">
             So you want to give back?<br />
             Learn how teaching has changed other dentists’ lives.
         </div>
-        <div class="gradient-overlay"></div>
+        <div class="gradient-overlay" role="presentation" aria-hidden="true"></div>
     </div>
 {{ end }}
     <div class="container doc-container clearfix" id="maincontent">
