@@ -34,4 +34,30 @@ This module was developed with support from the Health Resources and Services Ad
 
 #### CCNMTL/CTL Production Team
 
+##### EXECUTIVE PRODUCERS
+* Maurice Matiz
+* Michelle Hall
+* Lucille Appert
+
+##### PROJECT MANAGEMENT
+* Cindy Smalletz
+* Angie Lee
+
+##### WEB DESIGN
+* Zarina Mustapha
+
+##### PROGRAMMING
+* Susan Dreher
+* Zarina Mustapha
+
+##### GRAPHIC DESIGN
+* Zarina Mustapha
+* Marc Raymond
+
+##### VIDEO PRODUCTION
+* Stephanie Ogden
+* Michael Deleon
+* Jon Hanford
+* Acacia Graddy-Gamel
+
 &nbsp;

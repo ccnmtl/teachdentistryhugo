@@ -949,6 +949,19 @@ content: "\e080\00a0";
 }
 
 @media (max-width: 767px) {
+    .pager li {
+        display: block;
+        margin: 5px 0;
+    }
+    .pager .previous>a {
+        float: none;
+    }
+    .pager .next>a {
+        float: none;
+    }
+    #exemplarVideoModal iframe {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1163,6 +1176,10 @@ content: "\e080\00a0";
     .sm-width-warning {
         display: none;
     }
+    .grid-custom {
+        width: 550px;
+        margin: auto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1224,6 +1241,10 @@ content: "\e080\00a0";
     }
     .md-width-warning {
         display: none;
+    }
+    .grid-custom {
+        width: 820px;
+        margin: auto;
     }
 }
 
@@ -1329,6 +1350,10 @@ content: "\e080\00a0";
     }
     .md iframe  {
         width: 925px;
+    }
+    .grid-custom {
+        width: 100%;
+        margin: auto;
     }
 }
 

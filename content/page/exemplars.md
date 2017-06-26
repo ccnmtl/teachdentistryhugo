@@ -13,7 +13,7 @@ Dental educators from throughout thexemplarVideoModale country share their exper
 
 <!-- Button trigger modal -->
 
-<div class="grid clearfix">
+<div class="grid clearfix grid-custom">
 {{< videogrid youtube_id="u602pI2cA8k" exemplar_name="Adriana Segura, DDS" exemplar_thumbnail="adriana_segura" exemplar_institution="University of Texas Health Science Center at San Antonio" exemplar_reason="I wanted to impact students’ education and the health of the community." >}}
 {{< videogrid youtube_id="rOqojdkYHL0" exemplar_name="Chanel McCreedy, DDS" exemplar_thumbnail="chanel_mccreedy" exemplar_institution="UCLA School of Dentistry" exemplar_reason="I love to learn new information, and being faculty allows me to share that information with students.  I get to pass on my love for learning and dentistry, which is very fulfilling." >}}
 {{< videogrid youtube_id="knJ8duUw9zU" exemplar_name="Ernestine Lacy, MA, DDS" exemplar_thumbnail="ernestine_lacy" exemplar_institution="Texas A&M University College of Dentistry" exemplar_reason="it is rewarding" >}}
