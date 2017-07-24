@@ -1,5 +1,5 @@
 STAGING_URL=https://teachdentistryhugo.stage.ccnmtl.columbia.edu/
-PROD_URL=https://teachdentistry.ctl.columbia.edu/
+PROD_URL=https://teachdentistry.org/
 STAGING_BUCKET=teachdentistryhugo.stage.ccnmtl.columbia.edu
 PROD_BUCKET=teachdentistry.org
 INTERMEDIATE_STEPS ?= echo nothing
