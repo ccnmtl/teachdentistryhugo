@@ -1,7 +1,7 @@
 STAGING_URL=https://teachdentistryhugo.stage.ccnmtl.columbia.edu/
 PROD_URL=https://teachdentistry.ctl.columbia.edu/
 STAGING_BUCKET=teachdentistryhugo.stage.ccnmtl.columbia.edu
-PROD_BUCKET=teachdentistry.ctl.columbia.edu
+PROD_BUCKET=teachdentistry.org
 INTERMEDIATE_STEPS ?= echo nothing
 
 JS_FILES=themes/ctl-book/static/js/
