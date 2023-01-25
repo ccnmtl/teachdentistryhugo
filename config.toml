@@ -3,7 +3,7 @@ metaDataFormat = "yaml"
 languageCode = "en-us"
 theme = "ctl-book"
 title = "Teach Dentistry"
-googleAnalytics = "UA-311226-44"
+googleAnalytics = "G-77M2WMTF1R"
 
 [params]
     customCSS = "main.css"
