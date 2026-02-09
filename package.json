@@ -16,7 +16,7 @@
     "url": "https://github.com/ccnmtl/teachdentistryhugo/issues"
   },
   "devDependencies": {
-    "eslint": "~9.39.2",
+    "eslint": "~10.0.0",
     "eslint-plugin-security": "^3.0.1",
     "globals": "^17.3.0"
   }
